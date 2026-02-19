@@ -1,0 +1,1 @@
+# n-th term of arithmetic sequence - question
