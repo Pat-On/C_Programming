@@ -81,3 +81,7 @@ int main()
 const int SIZE = 7;
 int grades[SIZE];
 ```
+
+note from AI
+
+![alt text](image-1.png)
