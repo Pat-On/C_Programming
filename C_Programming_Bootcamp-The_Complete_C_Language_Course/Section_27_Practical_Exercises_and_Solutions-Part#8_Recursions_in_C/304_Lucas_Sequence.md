@@ -7,4 +7,4 @@ While Fibonacci starts with 0 and 1, the Lucas sequence starts with 2 and 1.
 
 The First 10 Lucas Numbers
 
-2, 1, 3, 4, 7, 11, 18, 29, 47, 76$$
+2, 1, 3, 4, 7, 11, 18, 29, 47, 76
