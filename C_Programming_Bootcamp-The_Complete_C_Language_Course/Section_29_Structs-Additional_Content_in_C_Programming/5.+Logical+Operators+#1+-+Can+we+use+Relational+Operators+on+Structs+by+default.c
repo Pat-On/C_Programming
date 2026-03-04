@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+// you needto write a function that knows how to compare two points
 
 // Structs Operators and Relations
 
