@@ -17,7 +17,7 @@ int main()
 	scanf("%d", &totalPoints);
 
 	// Making the Dynamic Memory Allocation (at run time..)
-	pointsArr = (Point*)malloc(sizeof(Point) * totalPoints);
+	pointsArr = (Point*)malloc(sizeof(Point) * totalPoints);	// <--- interesting
 
 	// Iterating over all of the Point Array (and reading input into each of them)
 	for (i = 0; i < totalPoints; i++)
