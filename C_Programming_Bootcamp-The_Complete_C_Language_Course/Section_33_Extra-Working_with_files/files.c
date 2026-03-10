@@ -14,16 +14,23 @@ int main()
     // fp = fopen(<file_name>, <type_of_operation>);
     // Types:
     // 'w' writing 'r' - reading 'a' - appending
-    fp = fopen();
+    fp = fopen("myFile.txt", "w"); // "w" - create file or overwrite file if exists
 
     // if (fp != NULL) - to make sura that the open operation was successful
+    if (fp == NULL)
+        printf("Failed");
+    else 
+    {
+        printf("Failed is open");
+    
+        // step 4 - work with a file
+        // code for working with the file...
 
-    // step 4 - work with a file
-    // code for working with the file...
+        // step 5 - close the file
+        fclose(fp);
+    }
 
-
-    // step 5 - close the file
-    fclose(fp);
+    
 
     return 0;
 }
