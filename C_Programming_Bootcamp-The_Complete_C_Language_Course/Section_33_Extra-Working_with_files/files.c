@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <stdio.h> // IO functions
 #include <stdlib.h>
 
 
