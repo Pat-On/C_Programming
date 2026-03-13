@@ -41,3 +41,7 @@ int main()
 // EOF - is not stored at the end of the file. 
 // it is just indicator for the low level the system that is indicating that we reach the end of the file
 // it is not the same like \n - nothing new
+
+// you can use it with feof function for example
+// while(!(feof(fp)))
+    // code
