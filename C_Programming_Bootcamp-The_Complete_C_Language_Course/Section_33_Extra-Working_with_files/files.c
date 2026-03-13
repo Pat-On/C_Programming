@@ -13,12 +13,18 @@ int main()
     // STEP 1
     FILE* fp;       // creating a pointer that points to a FILE type
 
+    FILE* fp2;       // creating a pointer that points to a FILE type
+
+
     char myChar1;
     // STEP 2 - opening / access to a file
     // fp = fopen(<file_name>, <type_of_operation>);
     // Types:
     // 'w' writing 'r' - reading 'a' - appending
     fp = fopen("myFile.txt", "r"); // "w" - create file or overwrite file if exists
+
+    fp2 = fopen("myFile2.txt", "w"); // "w" - create file or overwrite file if exists
+
 
     // if (fp != NULL) - to make sura that the open operation was successful
     if (fp == NULL)
@@ -37,9 +43,16 @@ int main()
 
 
         // specifying stdin
-        fgetc(stdin); // you read one character from the keyboard - fgetc is quite flexible
+        // fgetc(stdin); // you read one character from the keyboard - fgetc is quite flexible
 
         // step 5 - close the file
+
+
+        // ---- fputc ----
+         
+        fputc('X', fp2); // double string "H" -> "H\0"
+
+        putchar('a');
 
         fclose(fp);
     }
