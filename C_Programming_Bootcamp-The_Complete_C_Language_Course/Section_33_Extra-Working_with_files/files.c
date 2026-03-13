@@ -57,7 +57,12 @@ int main()
         fclose(fp);
     }
 
-    
+
+
+    // fgetc(<pointer_to_a_file>);
+    // fputc(<character>, <pointer_to_a_file>);
+    // fprintf(<pointer_to_a_file>, <placeholders>, <parameters>);
+    // fscanf(<pointer_to_a_file>, <placeholders>, <parameters>);
 
     return 0;
 }
