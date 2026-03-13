@@ -9,6 +9,8 @@ int main()
 
 
     char myChar1;
+    char myString[10];
+    int count = 0;
 
     fp = fopen("myFile3.txt", "w"); // "w" - create file or overwrite file if exists
 
@@ -20,13 +22,17 @@ int main()
     else 
     {
         printf("file is open \n");
-         
 
-        fputs("this is my string", fp);
-
+        fputs("this is my string \n", fp);
+        fputs("this is my string 2 \n", fp);
+        fputs("this is my string 3 \n", fp);
+        
         fclose(fp);
     }
-
+    fp = fopen("myFile3.txt", "r"); // "w" - create file or overwrite file if exists
+    
+    while (fgets(myString, 10, fp))
+        printf("string %d read: %s \n", ++count, myString);
 
 
     return 0;

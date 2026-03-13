@@ -1,1 +1,3 @@
-this is my string
+this is my string 
+this is my string 2 
+this is my string 3 
