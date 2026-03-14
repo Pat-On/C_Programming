@@ -1,23 +1,3 @@
-# Introduction to Pointers
-
-- one of the most important and influencing topics in all your programming career
-
-## Simple Swap code
-
-```c
-void main()
-{
-    int a = 5, b = 7;
-    int temp;
-
-    temp = a;
-    a = b;
-    b = temp;
-}
-```
-
-## wrong - C is passing by value vs passing by reference
-```c
 void swap(int num1, int num2)
 {
     int temp;
@@ -35,5 +15,3 @@ void main()
     printf("First number after swap = %d \n", a);
     printf("Second number after swap = %d \n", b);
 }
-```
-
