@@ -22,6 +22,7 @@ int main()
     // printf("Enter two numbers: ");
     // scanf("%d %d", &a, &b);
 
+    // it will update values in this variables using the passed addresses
     findMinMax(a, b, &max, &min);
 
     printf("Max = %d, Min = %d\n", max, min);
