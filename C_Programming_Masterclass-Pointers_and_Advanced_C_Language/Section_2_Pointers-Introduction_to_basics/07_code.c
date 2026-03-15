@@ -19,4 +19,8 @@ int main()
 
     printf("%p\n", p);      // 0x7ffde73cf39c 
     printf("%d\n", *p);     // 5
+
+    int * p2 = NULL;
+    printf("%p\n", p2);      // (nil)
+    
 }
