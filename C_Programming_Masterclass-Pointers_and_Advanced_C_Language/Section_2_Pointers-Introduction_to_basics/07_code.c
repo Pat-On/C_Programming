@@ -4,7 +4,6 @@
 int main()
 {
     int a = 5; // standard variable
-
     int *p;
 
     printf("%d \n", a);     // 5
