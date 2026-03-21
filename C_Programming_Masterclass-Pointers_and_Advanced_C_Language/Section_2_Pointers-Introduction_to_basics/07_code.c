@@ -9,7 +9,7 @@ int main()
     printf("%d \n", a);     // 5
     printf("%p \n", &a);    // 0x7ffde73cf39c 
 
-    // accessing random memory - completely wrong
+                            // accessing random memory - completely wrong
     printf("%p\n", p);      // 0x7ffc58c8d180
     printf("%d\n", *p);     // -1959878528
 
