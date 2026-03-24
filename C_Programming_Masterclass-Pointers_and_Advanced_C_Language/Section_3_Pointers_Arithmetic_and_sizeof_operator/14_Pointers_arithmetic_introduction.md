@@ -1,2 +1,1 @@
-# Pointers arithmetic introduction 
-~~~~
+# Pointers arithmetic introduction
