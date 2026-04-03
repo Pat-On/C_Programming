@@ -15,7 +15,4 @@ int main()
     printf("Pointer address as decimal: %llu\n", (unsigned long long)(uintptr_t)1+gradesPtr);
 
     printf("Pointer address as decimal: %llu\n", (unsigned long long)(uintptr_t)(gradesPtr+1));
-
-
-
 }
