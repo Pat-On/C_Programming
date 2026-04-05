@@ -3,6 +3,10 @@
 
 #define SIZE 5
 
+
+// Void is universal so you could do this one too
+// void swapArrayO1(void **ptr1, void **ptr2)
+
 void swapArrayO1(int **ptr1, int **ptr2)
 {
     int *temp;
