@@ -14,7 +14,7 @@ void genericSwap(void *a, void *b, int size) //  we assume that size > 0
 
     memcpy(a, b, size);
 
-    memcpy(a, temMemory, size);
+    memcpy(b, temMemory, size);
 }
 
 int main()
@@ -24,5 +24,9 @@ int main()
     genericSwap(&average1, &average2, sizeof(double));
 
     genericSwap(&num1, &num2, sizeof(int));
+
+    printf("num1 %i \n", num1);
+    printf("num2 %i \n", num2);
+
 
 }
