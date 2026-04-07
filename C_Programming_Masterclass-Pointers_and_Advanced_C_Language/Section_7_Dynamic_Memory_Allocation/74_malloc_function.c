@@ -1,6 +1,6 @@
 #include <stdio.h> // or malloc.h 
 #include <stdlib.h>
-// #include <malloc.h>
+// #include <malloc.h> // TODO: check it out - what includes stdio
 
 int main()
 {
