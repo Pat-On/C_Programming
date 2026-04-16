@@ -27,5 +27,5 @@ for (i=0; i<totalGrades; i++)
     printf("Enter Grade %d: ", i+1);
     scanf("%d", &gradesArray[i]);
 }
-// Code... Code... Code...
+
 ```
