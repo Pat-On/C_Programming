@@ -29,3 +29,24 @@ for (i=0; i<totalGrades; i++)
 }
 
 ```
+
+## with a re-allocate
+
+
+```c
+int* reallocate(int *oldArr, int oldSize, int newSize)
+{
+    int i;
+    int *newArr;
+    newArr = (int*)malloc(newSize * sizeof(int));
+    for(i=0; i<oldSize; i++)
+    {
+        newArr[i] = oldArr[i];
+    }
+    free(oldArr);
+    return newArr;
+}
+
+```
+
+![alt text](image-7.png)
